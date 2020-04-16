@@ -1,25 +1,10 @@
-/* GUIDES */
-
-/* @media screen and (min-width: 0em) and (max-width: 56em) {
-  body { background-image: url("//basehold.it/i/24/ff00ff"); }
-}
-
-@media screen and (min-width: 56em) {
-  body { background-image: url("//basehold.it/i/32/ff00ff"); }
-}
-
-header, footer {
-  background-color: rgba(0, 255, 255, 0.1);
-}
-
-p, ul, li {
-  background-color: rgba(0, 255, 255, 0.1);
-}
-
-h1, h2, h3, h4, dt {
-  background-color: rgba(0, 255, 255, 0.1);
-} */
-
+/*
+Thanks to the team at Upperstudy.com. 
+I don't know enough about HTML or CSS to roll my own...but I know enough to edit basic things.
+They created a wonderfully simple website.
+I've been aiming for a similar type of site for a long time.
+With absolutely zero intentin of using this for commericial use, I hope they don't mind
+*/
 
 /* SETUP */
 
@@ -59,8 +44,8 @@ header, article, section, footer, p, ul, h1, h2, h3, h4, dl, dt, dd {
 /* LAYOUT, TYPE, STYLE */
 
 body {
-  font-family: sans-serif;
-  font-weight: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: ;
   font-style:  normal;
   letter-spacing: -0.05rem;
   /* padding:     4rem; */
@@ -81,7 +66,8 @@ body {
 }
 
 .logo {
-  font:           4rem/4rem sans-serif;
+  font:           4rem/4rem 'Inter', sans-serif;
+  font-weight: 600;
   letter-spacing: -0.1rem;
 }
 
@@ -90,21 +76,21 @@ body {
 }
 
 .title {
-  font:           2.25rem/3rem  sans-serif;
-  font-weight:    500;
+  font:           2.25rem/3rem 'Inter',  sans-serif;
+  font-weight:    600;
   letter-spacing: -0.05rem;
   margin-top:    5rem;
 }
 
 .subtitle {
-  font:           1.5rem/2.25rem  sans-serif;
+  font:           1.5rem/2.25rem 'Inter',  sans-serif;
   letter-spacing: -0.05rem;
   margin-top:  3rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .subtitle a {
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 2rem;
   display: block;
   color: #FF694F;
