@@ -1,0 +1,195 @@
+/* GUIDES */
+
+/* @media screen and (min-width: 0em) and (max-width: 56em) {
+  body { background-image: url("//basehold.it/i/24/ff00ff"); }
+}
+
+@media screen and (min-width: 56em) {
+  body { background-image: url("//basehold.it/i/32/ff00ff"); }
+}
+
+header, footer {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+p, ul, li {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+h1, h2, h3, h4, dt {
+  background-color: rgba(0, 255, 255, 0.1);
+} */
+
+
+/* SETUP */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  -moz-font-feature-settings:    'liga', 'kern';
+  -moz-font-feature-settings:    'liga=1, kern=1';
+  -ms-font-feature-settings:     'liga', 'kern';
+  -o-font-feature-settings:      'liga', 'kern';
+  -webkit-font-feature-settings: 'liga', 'kern';
+  font-feature-settings:         'liga', 'kern';
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing:  antialiased;
+
+  text-rendering: optimizeLegibility;
+
+  font-stretch: normal;
+
+  margin:  0;
+  padding: 0;
+}
+
+header, article, section, footer, p, ul, h1, h2, h3, h4, dl, dt, dd {
+  padding: 0;
+  margin:  0;
+}
+
+
+/* LAYOUT, TYPE, STYLE */
+
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style:  normal;
+  letter-spacing: -0.05rem;
+  /* padding:     4rem; */
+}
+
+.header {
+  display:        table-cell;
+  height:         calc(100vh);
+  vertical-align: middle;
+  width:          100vw;
+  padding:        6rem 0;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 0rem;
+  max-width: 40rem;
+}
+
+.logo {
+  font:           4rem/4rem sans-serif;
+  letter-spacing: -0.1rem;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.title {
+  font:           2.25rem/3rem  sans-serif;
+  font-weight:    500;
+  letter-spacing: -0.05rem;
+  margin-top:    5rem;
+}
+
+.subtitle {
+  font:           1.5rem/2.25rem  sans-serif;
+  letter-spacing: -0.05rem;
+  margin-top:  3rem;
+  font-weight: 300;
+}
+
+.subtitle a {
+  font-weight: 500;
+  margin-top: 2rem;
+  display: block;
+  color: #FF694F;
+  text-decoration: none;
+}
+
+.subtitle a:hover {
+  text-decoration: underline;
+  color: #a7335e;
+}
+
+
+
+
+
+/* LAYOUT: SMALL */
+
+@media screen and (min-width: 0em) and (max-width: 40em) {
+  html {
+    font-size: 75%;
+  }
+
+  .content {
+    margin: 0 auto;
+    padding: 0 0rem;
+    max-width: 85%;
+  }
+
+}
+
+/* LAYOUT: MEDIUM */
+
+@media screen and (min-width: 40em) and (max-width: 56em) {
+  html {
+    font-size: 75%;
+  }
+
+  .header {
+    height:         calc(100vh - 10rem);
+    padding:        10rem 0;
+  }
+
+  .content {
+    padding: 0 6rem;
+  }
+}
+
+/* LAYOUT: LARGE */
+
+@media screen and (min-width: 56em) and (max-width: 80em) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+/* LAYOUT: XLARGE */
+
+@media screen and (min-width: 80em) {
+  html {
+    font-size: 100%;
+  }
+}
+
+
+/* THEME */
+
+::selection {
+  color:      #ffffff;
+  background: #FF694F;
+}
+
+body {
+  color:            #000;
+  background-color: #fff;
+}
+
+
+.logo a:link,
+.logo a:visited { color: #FF694F; }
+.logo a:active,
+.logo a:hover   { color: #a7335e; }
+
+.title    { color: #000; }
+
+.actions a:link,
+.actions a:visited { color: #000; opacity: 0.25; }
+.actions a:active,
+.actions a:hover   { color: #FF694F; opacity: 1}

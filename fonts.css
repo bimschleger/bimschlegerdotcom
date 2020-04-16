@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Cambon';
+  font-weight: bold;
+  src: url('/assets/fonts/Cambon/Cambon-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'GT America';
+  font-weight: 300;
+  src: url('/assets/fonts/GT America/GT-America-Standard-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'GT America';
+  font-weight: 500;
+ src: url('/assets/fonts/GT America/GT-America-Standard-Medium.otf') format('opentype');
+}
