@@ -1,2 +1,2 @@
 # Bimschleger Dot Com
- My personal website. Inspired by the radical simplicity of the Understudy.com website, I wanted to create a personal page that simply allows for people to get in touch with me.
+My personal website. I used ChatGPT to generate a basic personal website, which it was surprisingly good at.
